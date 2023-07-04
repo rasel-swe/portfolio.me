@@ -110,15 +110,6 @@ p{
     position: relative;
     text-align: center;
 }
-/* .profile .top_icon{
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    transition: transform 2s;
-}
-.profile .top_icon:hover{
-    transform: rotate(360deg);
-} */
 
    
 
@@ -142,7 +133,7 @@ p{
  
     margin: 20px 0px 20px;
     font-size: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
    
    
 }
