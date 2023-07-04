@@ -1,5 +1,9 @@
 const occupationElement = document.getElementById("occupation");
-const occupations = ["Software Engineer", "Full Stack Web Developer", "Freelancer"];
+const occupations = [
+  "Software Engineer",
+  "Full Stack Web Developer",
+  "Freelancer",
+];
 const colors = ["white", "yellow", "lime"];
 let currentIndex = 0;
 const speed = 100; // Adjust typing speed (in milliseconds)
@@ -36,7 +40,3 @@ function typeWriter() {
 }
 
 typeWriter();
-
-
-
-
