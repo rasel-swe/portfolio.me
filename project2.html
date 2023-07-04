@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Big Card Example</title>
-  <style>
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .card {
-      width: 300px;
-      background-color: #f2f2f2;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-    }
-    
-    .card img {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-    
-    .card .line {
-      border-top: 1px solid #ccc;
-      margin: 10px 0;
-    }
-    
-    .card h2 {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-    
-    .card p {
-      font-size: 14px;
-      margin-bottom: 0;
-    }
-    h1{
-        color: red;
-        font-weight: bold;
-        font-size: xx-large;
-    }
-  </style>
-</head>
-<body>
-    
-  <div class="card">
-    <img src="./Images/Netflix-clone.png" alt="Project 2">
-    <div class="card-body">
-      <h2>Netflix Clone</h2>
-      <p>Netflix Clone is a full completed live streaming application.For more details please visit:</p>
-  </div>
-  </div>
-  <h1>This Web Application is Under the Construction.</h1>
-  <h1>Thank You!</h1>
+  <head>
+    <title>Big Card Example</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        flex-direction: column; /* Add this line */
+      }
 
-</body>
+      .card {
+        text-align: center;
+        width: 300px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px; /* Add this line to create space between card and h1 */
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .card .line {
+        border-top: 1px solid #ccc;
+        margin: 10px 0;
+      }
+
+      .card h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .card p {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(130, 1, 1);
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./Images/Netflix-clone.png" alt="Project 2" />
+      <div class="card-body">
+        <h2>Netflix Clone</h2>
+        <p>
+          Netflix Clone is a full completed live streaming application.For more
+          details please visit:
+        </p>
+      </div>
+    </div>
+    <h1>
+      Regrettably, the clone web application cannot be publicly visualized due
+      to certain intellectual property rights (IPR) constraints. We sincerely
+      apologize for any inconvenience caused by this limitation.
+    </h1>
+    <h1>Thank You!</h1>
+  </body>
 </html>
