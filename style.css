@@ -43,12 +43,9 @@ a{
     text-align: center;
     border-radius: 10px;
     border: 2px solid transparent;
-    
     color: white;
-  
     font-size: .9rem;
     padding: 5px;
-    
 }
 .btn11 a:hover{
     font-size: .9rem;
@@ -56,17 +53,13 @@ a{
     font-weight: bold;
     background-color: black;
     border: 2px solid red;
-    
 }
 .navbar{
-  
     background-color: black;
     padding: 1% 7%;
     text-align: center;
-   
 }
 .navbar h1{
-  
     color: white;
     margin: 0;
     padding-top: 15px;
@@ -74,7 +67,6 @@ a{
 .nav-menu{
     display: flex;
     flex-direction: column;
-    /* text-transform: uppercase; */
 }
 .nav-menu a{
     background-color: #0c6168;
@@ -94,7 +86,6 @@ a{
     clear: both;
 }
 
-
 /* profile dsign starts from here */
 
 p{
@@ -110,32 +101,21 @@ p{
     position: relative;
     text-align: center;
 }
-
-   
-
 .Image_me{
     height: 400px;
     border-radius: 40px;
-  
-    
 }
 .content{
-    
     padding-top: 40px;
     color: white;
     position: relative;
     text-align: center;
- 
-   
 }
 .profile-des h1{
   font-family: "Jesefin Sans", sans-sans-serif;
- 
     margin: 20px 0px 20px;
     font-size: 40px;
     letter-spacing: 0px;
-   
-   
 }
 
 .profile-des h3{
@@ -182,10 +162,7 @@ p{
     padding: 4px 15px 4px 8px;
     border: 1px solid #f9004d;
     outline: none;
-    border-radius: 30px;
-    
-    
-    
+    border-radius: 30px; 
 }
 .newslatter form input:last-child{
     position: absolute;
@@ -220,15 +197,7 @@ p{
     font-size: .95rem;
 }
 
-/* .profile .bottom-icon{
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
-    transition: transform 2s;
-}
-.profile .bottom-icon:hover{
-    transform: rotate(360deg);
-} */
+
 .profile::after{
     content: '';
     display: table;
@@ -244,15 +213,12 @@ span{
     font-weight: bold;
     font-style: italic;
 }
-
-
 /* profile dsign endds from here */
 
  /* Obout me starts here  */
  .about_me{
     background-color: #070607;
     padding: 4% 0%;
-    
  }
  .about{
     background-color: #1B191B;
@@ -336,11 +302,7 @@ span{
     border-radius: 20px;
     padding: 10px;
     transition: 0.5s;
-    
-    
   }
-
- 
   .card:hover{
         box-shadow: 0px 4px 8px 5px red;
   }
