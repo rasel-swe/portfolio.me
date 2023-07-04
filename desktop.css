@@ -1,0 +1,258 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar design starts here */
+
+.nav-logo{
+    text-align: left;
+    margin-right: -17px;
+   
+}
+.nav-head h1{
+    text-align: right;
+
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 8px;
+    margin: 20px;
+    background-color: transparent;
+
+}
+.nav-menu a:hover{
+    background-color: transparent;
+    color: red;
+    font-size: 1rem;
+    transition: .5s;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.btn11 a {
+    color: white;
+
+        border-radius:6px;
+        padding:4px;
+        margin: 10px;
+        font-size: .9rem;
+
+
+       
+}
+.btn11{
+    padding-top: 25px;
+    padding-left: 150px;
+}
+/* navbar design ends here */
+
+/* profile design starts here */
+.profile .top_icon{
+    
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+    
+}
+.profile .top_icon:hover{
+   width:  140px;
+}
+.profile .bottom-icon{
+    bottom: 20px;
+    left: 100px;
+    width: 120px;
+}
+
+.profile .bottom-icon:hover{
+    width: 140px;
+    transition: width 2s, transform 2s;
+}
+
+.profile-des p{
+    color: grey;
+    text-align: center;
+   margin-bottom: 10px;
+    margin: 0 auto;
+    width: 50%;
+    padding-left: 120px;
+    padding-top: 40px;
+   
+}
+.Image_me{
+    padding-left: 100px;
+   
+}
+  
+.content{
+    padding-top: 100px;
+   
+    text-align: left;
+}
+.profile-des h1{
+    padding-left: 500px;
+    text-align: left;
+    letter-spacing: 2px;
+   
+}
+.profile-des h3{
+    text-align: left;
+    padding-left:0px;
+    letter-spacing: 1px;
+}
+.profile-des h4{
+    text-align: left;
+    padding-left: 500px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.newslatter form{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 500px;
+}
+.newslatter form input:first-child{
+    padding: 8px 200px 8px 8px;
+    position: absolute;
+    left: 500px;
+}
+.newslatter form input:last-child{
+   top: 4.5px;
+   right: inherit;
+   left: 743px;
+   padding: 4px 20px;
+}
+
+.Image_me{
+   float: left;
+   
+    
+}
+/* profile design ends here */
+.profile{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+/* about me starts here */
+.about_image{
+ padding-right: 200px;
+ margin-top: 10px;
+}
+.about_image img{
+    height: 270px;
+    width: 270px;
+    border: none;
+    
+  
+}
+
+
+.about_des{
+    padding-top: 50px;
+}
+.about_des p{
+    
+    text-align: left;
+}
+h2{
+    font-size: 27px;
+}
+.dotted{
+    width: 80px;
+}
+
+.professional_experience .card{
+    height: 500px
+}
+/* about me ends here */
+
+/* <!-- progress bar starts here --> */
+.progress-bar{
+    
+    width: 150px;
+    
+   
+}
+.skills li{
+    margin-bottom: 5px;
+    padding: 11px;
+}
+     
+      /* <!-- progress bar ends here --> */
+
+      /* <!-- Our service starts here --> */
+
+      .box{
+        display: flex;
+      }
+      /* <!-- Our service ends here --> */
+
+      .hire-me p{
+        font-size: 25px;
+        padding-bottom: 10px;
+      }
+
+      
+.contact input, textarea{
+   align-items: center;
+    width: 300px;
+   position: relative;
+   display: inline-block;
+}
+.field{
+    padding-top: 5px;
+}
+.contact button{
+   width: 80px;
+   
+}
+
+.contact-link{
+    margin: 0;
+    position: relative;
+    align-items: center;
+    padding: 40px;
+   
+    padding-top: 120px;
+}
+.media-buttons .btn{
+    padding: 2px;
+    margin: 3px;
+    font-size: 25px;
+    width: 35px;
+   
+}
+.media-buttons{
+    margin-top: 110px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: -100px;
+}
+.contact-link hr{
+    width: 100px;
+   
+}
+.cardP{
+    margin: 10px;
+}
+.cardP img{
+    height: 150px;
+}
+
+
+  
+  
+  
