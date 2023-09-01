@@ -2,7 +2,7 @@ const occupationElement = document.getElementById("occupation");
 const occupations = [
   "Software Engineer",
   "Full Stack Web Developer",
-  "Freelancer",
+  "Research Enthusiast",
 ];
 const colors = ["white", "yellow", "lime"];
 let currentIndex = 0;
